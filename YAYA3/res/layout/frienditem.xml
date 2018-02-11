@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/FriendItem" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="horizontal"
+	android:background="@drawable/friend_item">
+
+	<ImageView android:id="@+id/icon" android:layout_gravity="center"
+		android:layout_width="35sp" android:layout_height="35sp" />
+
+	<TextView android:id="@+id/text" android:layout_width="wrap_content"
+		android:layout_height="60sp" android:gravity="center_vertical"
+		android:textSize="20sp" android:textColor="#00ff00" />
+</LinearLayout>
